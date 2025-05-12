@@ -6,6 +6,6 @@ Widgetario is a company which sells gadgets. They want to run their public web a
 ![Screenshot 2025-05-04 174854](https://github.com/user-attachments/assets/40a6397a-7c8b-49b2-bb9d-e4f89ba95cce)
 
 
-## Part 2 - Configuration##
+## Part 2 - Configuration
 ![Screenshot 2025-05-05 122710](https://github.com/user-attachments/assets/05d9857c-66fc-4115-893d-0f64d0d53719)
 

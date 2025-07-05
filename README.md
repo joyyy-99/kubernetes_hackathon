@@ -1,6 +1,7 @@
 # 📦 Widgetario — Distributed Systems on Kubernetes
 
-Widgetario is a gadget-selling company aiming to deploy its public-facing web application on Kubernetes. This project demonstrates how to configure, deploy, scale, and monitor microservices using Kubernetes with CI/CD and production-ready configurations.
+This project reinforces Kubernetes skills by deploying the **Widgetario** application through a series of hands-on stages. The focus areas include containerization, secrets management, persistent storage, ingress configuration, observability, and CI/CD pipeline automation.
+
 
 ---
 

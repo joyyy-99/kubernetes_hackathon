@@ -4,6 +4,58 @@ Widgetario is a gadget-selling company aiming to deploy its public-facing web ap
 
 ---
 
+## 📦 Project Overview
+
+Widgetario is a fictional company that sells gadgets. The app is built with a microservices architecture and is deployed on Kubernetes. This repo showcases the full lifecycle from local development to production-grade deployment using industry-standard tools and patterns.
+
+---
+
+## 🛠️ Prerequisites
+
+Make sure you have the following installed:
+
+- [Docker](https://www.docker.com/)
+- [`kubectl`](https://kubernetes.io/docs/tasks/tools/)
+- [Minikube](https://minikube.sigs.k8s.io/docs/) or a Kubernetes cluster
+- [Helm](https://helm.sh/)
+- [Jenkins](https://www.jenkins.io/) (for CI/CD)
+- Optional: [Testkube](https://testkube.io/) for testing pipelines
+
+---
+
+## 🔨 Hackathon Stages
+
+| Part | Name | Description |
+|------|------|-------------|
+| **1** | Welcome to Widgetario | Containerize a basic application, deploy it via `kubectl`, and expose it using a Service. |
+| **2** | Configuration | Use ConfigMaps and Secrets to manage app settings and separate config from code. |
+| **3** | Storage | Use `PersistentVolume` and `PersistentVolumeClaim` for attaching storage to pods. |
+| **4** | Ingress | Set up an Ingress controller (e.g., NGINX), route multiple services, and enable TLS. |
+| **5** | Productionizing | Add probes, set resource limits, and implement security contexts. |
+| **6** | Observability | Integrate Prometheus and Grafana for metrics, and Fluent Bit for logging. |
+| **7** | CI/CD | Use Jenkins pipelines to automate builds, tests, and deployments triggered by GitHub Webhooks. |
+
+Each stage has its own directory (`part1`, `part2`, ... `part7`) containing relevant code, manifests, and documentation.
+
+---
+
+## 📂 Project Structure
+├── part1/ # Welcome to Widgetario (basic deployment)
+├── part2/ # Configuration (Secrets & ConfigMaps)
+├── part3/ # Storage (Volumes & Claims)
+├── part4/ # Ingress (NGINX ingress + routing)
+├── part5/ # Productionization (probes, security, resources)
+├── part6/ # Observability (Grafana, Prometheus, Fluent Bit)
+├── part7/ # CI/CD (Jenkinsfile + pipeline)
+├── scripts/ # Supporting scripts
+├── Group_Members.txt # Team list
+├── README.md 
+
+
+---
+
+## 🚀 Deployment Instructions
+
 ## Part 1 - Welcome to Widgetario
 Widgetario wants to host its public web application on Kubernetes. Below is an architectural overview of the services and their interactions.
 

@@ -41,16 +41,17 @@ Each stage has its own directory (`part1`, `part2`, ... `part7`) containing rele
 ---
 
 ## 📂 Project Structure
-├── part1/ # Welcome to Widgetario (basic deployment)
-├── part2/ # Configuration (Secrets & ConfigMaps)
-├── part3/ # Storage (Volumes & Claims)
-├── part4/ # Ingress (NGINX ingress + routing)
-├── part5/ # Productionization (probes, security, resources)
-├── part6/ # Observability (Grafana, Prometheus, Fluent Bit)
-├── part7/ # CI/CD (Jenkinsfile + pipeline)
-├── scripts/ # Supporting scripts
-├── Group_Members.txt # Team list
-├── README.md 
+Widgetario/
+├── part1/ # Welcome to Widgetario – Containerize & deploy a basic app
+├── part2/ # Configuration – Manage settings with ConfigMaps & Secrets
+├── part3/ # Storage – Implement persistent volumes and claims
+├── part4/ # Ingress – Set up NGINX ingress and routing rules
+├── part5/ # Productionizing – Add probes, limits, and security features
+├── part6/ # Observability – Set up Prometheus, Grafana, and Fluent Bit
+├── part7/ # CI/CD – Automate deployments using Jenkins pipeline
+├── scripts/ # Bash or helper scripts used throughout the project
+├── Group_Members.txt # List of contributors/team members
+└── README.md # Project overview and documentation (this file)
 
 
 ---
